@@ -3,7 +3,7 @@ import React from 'react';
 const DestinationSelector = ({ tours, selected, setSelected }) => {
   const destinations = ['all', ...new Set(tours.map((tour) => tour.name))];
 
-  return (
+  return ( //rendering the destination selector component 
     <div className="destination-selector">
       <label htmlFor="destination">filter by destination:</label>
       <select
