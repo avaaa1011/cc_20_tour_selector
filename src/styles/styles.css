@@ -1,0 +1,72 @@
+.tour-card {
+    background-color: #fff5e6;
+    border: 1px solid #f4c27a;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(244, 194, 122, 0.4);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Tour card hover effect */
+.tour-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(244, 194, 122, 0.6);
+}
+
+/* Tour name styling */
+.tour-card h2 {
+    font-size: 1.8rem;
+    color: #d97706;
+    margin-bottom: 8px;
+}
+
+/* Tour price styling */
+.tour-card h3 {
+    font-size: 1.5rem;
+    color: #e07a16;
+    margin-bottom: 8px;
+}
+
+/* Tour card description */
+.tour-card p {
+    font-size: 1rem;
+    color: #5a4636;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Buttons inside tour cards */
+.tour-card .btn-remove {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Main Heading */
+h1 {
+    color: #e76f51;
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Button hover effect */
+.tour-card .btn-remove:hover {
+    background-color: #e76f51;
+}
+
+/* No tours message */
+.no-tours {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #d97706;
+}
